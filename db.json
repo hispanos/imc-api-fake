@@ -1,115 +1,122 @@
 {
-    "patients": [
-        {
-            "id": 1,
-            "document": "1039100351",
-            "gender": "male",
-            "name": "Mailer",
-            "last_name": "Martínez",
-            "birthday": "1996-12-19",
-            "phone": "3192432568",
-            "mobile": "3192432568"
-        },
-        {
-            "id": 2,
-            "document": "1039154784",
-            "gender": "female",
-            "name": "Juanita",
-            "last_name": "Alimaña",
-            "birthday": "1999-06-15",
-            "phone": "3152447887",
-            "mobile": "3658747896"
-        },
-        {
-            "id": 3,
-            "document": "1039154748",
-            "gender": "male",
-            "name": "Pedrito",
-            "last_name": "Acosta",
-            "birthday": "2001-12-19",
-            "phone": "3104587485",
-            "mobile": "3201478745"
-        }
-    ],
-    "records": [
-        {
-            "id": 1,
-            "patient": 1,
-            "weight": 50,
-            "height": 160
-        },
-        {
-            "id": 2,
-            "patient": 1,
-            "weight": 60,
-            "height": 160
-        },
-        {
-            "id": 3,
-            "patient": 2,
-            "weight": 85,
-            "height": 170
-        },
-        {
-            "id": 4,
-            "patient": 3,
-            "weight": 76,
-            "height": 165
-        }
-    ],
-    "configuration": {
-        "app_name": "IMC",
-        "version": 1,
-        "author": "Mailer Martínez"
+  "users": [
+    {
+      "email": "mailermartinez@gmail.com",
+      "password": "$2a$10$lr0NzNVBHsuw1MfycQefpuotrJPqSyeGubM4MFGK4DddMg/9VGdqm",
+      "id": 1
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "document": "1039100351",
+      "gender": "male",
+      "name": "Mailer",
+      "last_name": "Martínez",
+      "birthday": "1996-12-19",
+      "phone": "3192432568",
+      "mobile": "3192432568"
     },
-    "imc_configuration": [
-        {
-            "min": 0,
-            "max": 18.5,
-            "status": "Bajo peso",
-            "description": "Lorem..."
-        },
-        {
-            "min": 18.5,
-            "max": 24.9,
-            "status": "Normal peso",
-            "description": "Lorem..."
-        },
-        {
-            "min": 25,
-            "max": 26.9,
-            "status": "Sobre peso Grado 1",
-            "description": "Lorem..."
-        },
-        {
-            "min": 27,
-            "max": 29.9,
-            "status": "Sobre peso Grado 2",
-            "description": "Lorem..."
-        },
-        {
-            "min": 30,
-            "max": 34.9,
-            "status": "Obesidad Tipo 1",
-            "description": "Lorem..."
-        },
-        {
-            "min": 35,
-            "max": 39.9,
-            "status": "Obesidad Tipo 2",
-            "description": "Lorem..."
-        },
-        {
-            "min": 40,
-            "max": 49.9,
-            "status": "Obesidad Tipo 3",
-            "description": "Lorem..."
-        },
-        {
-            "min": 50,
-            "max": 100,
-            "status": "Obesidad Tipo 4",
-            "description": "Lorem..."
-        }
-    ]
+    {
+      "id": 2,
+      "document": "1039154784",
+      "gender": "female",
+      "name": "Juanita",
+      "last_name": "Alimaña",
+      "birthday": "1999-06-15",
+      "phone": "3152447887",
+      "mobile": "3658747896"
+    },
+    {
+      "id": 3,
+      "document": "1039154748",
+      "gender": "male",
+      "name": "Pedrito",
+      "last_name": "Acosta",
+      "birthday": "2001-12-19",
+      "phone": "3104587485",
+      "mobile": "3201478745"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "weight": 50,
+      "height": 160
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "weight": 60,
+      "height": 160
+    },
+    {
+      "id": 3,
+      "patientId": 2,
+      "weight": 85,
+      "height": 170
+    },
+    {
+      "id": 4,
+      "patientId": 3,
+      "weight": 76,
+      "height": 165
+    }
+  ],
+  "configuration": {
+    "app_name": "IMC",
+    "version": 1,
+    "author": "Mailer Martínez"
+  },
+  "imc_configuration": [
+    {
+      "min": 0,
+      "max": 18.5,
+      "status": "Bajo peso",
+      "description": "Lorem..."
+    },
+    {
+      "min": 18.5,
+      "max": 24.9,
+      "status": "Normal peso",
+      "description": "Lorem..."
+    },
+    {
+      "min": 25,
+      "max": 26.9,
+      "status": "Sobre peso Grado 1",
+      "description": "Lorem..."
+    },
+    {
+      "min": 27,
+      "max": 29.9,
+      "status": "Sobre peso Grado 2",
+      "description": "Lorem..."
+    },
+    {
+      "min": 30,
+      "max": 34.9,
+      "status": "Obesidad Tipo 1",
+      "description": "Lorem..."
+    },
+    {
+      "min": 35,
+      "max": 39.9,
+      "status": "Obesidad Tipo 2",
+      "description": "Lorem..."
+    },
+    {
+      "min": 40,
+      "max": 49.9,
+      "status": "Obesidad Tipo 3",
+      "description": "Lorem..."
+    },
+    {
+      "min": 50,
+      "max": 100,
+      "status": "Obesidad Tipo 4",
+      "description": "Lorem..."
+    }
+  ]
 }

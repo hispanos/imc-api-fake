@@ -1,0 +1,6 @@
+{
+    "/patients": "/660/patients?_embed=records",
+    "/patients/:id": "/660/patients/:id?_embed=records",
+    "/records": "/660/records?_expand=patient",
+    "/records/:patient": "/660/records?patientId=:patient&_expand=patient"
+}
