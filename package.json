@@ -1,0 +1,23 @@
+{
+  "name": "imc-api-fake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hispanos/imc-api-fake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hispanos/imc-api-fake/issues"
+  },
+  "homepage": "https://github.com/hispanos/imc-api-fake#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
