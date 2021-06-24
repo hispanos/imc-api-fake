@@ -6,10 +6,10 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 const rules = auth.rewriter({
-    "/patients": "/660/patients?_embed=records",
-    "/patients/:id": "/660/patients/:id?_embed=records",
-    "/records": "/660/records?_expand=patient",
-    "/records/:patient": "/660/records?patientId=:patient&_expand=patient"
+    "/patients": "/patients?_embed=records",
+    "/patients/:id": "/patients/:id?_embed=records",
+    "/records": "/records?_expand=patient",
+    "/records/:patient": "/records?patientId=:patient&_expand=patient"
 })
 
 server.db = router.db;
